@@ -1,0 +1,60 @@
+/* html{
+    font-family: $fontFamily;
+    font-size: 62.5%;
+    word-spacing: 0.3em;
+    letter-spacing: 0.09em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 720px;
+} */
+
+/* body{
+    display: grid;
+    grid-template-areas: "header" "carousel" "main" "footer";
+    grid-template-rows: auto auto auto 10vh;
+
+} */
+
+
+.container{
+    max-width: $genWidth;
+    width: 100%;
+    margin: auto;
+}
+
+.container-2{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCenter{
+    justify-content: center;
+}
+
+.flexSpaceA{
+    justify-content: space-around;
+}
+
+.flexSpaceE{
+    justify-content: space-evenly;
+}
+
+.flexSpaceB{
+    justify-content: space-between;
+}

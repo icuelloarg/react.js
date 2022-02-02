@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import navbar from './components/NavBar';
+import Navbar from './components/Navbar/NavBar';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {navbar}
+        <Navbar/>
       </header>
     </div>
   );
