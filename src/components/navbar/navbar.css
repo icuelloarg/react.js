@@ -1,0 +1,13 @@
+.navbar {
+    list-style: none;
+    column-gap: 1rem;
+    height: 100%; }
+    .navbar li {
+      display: flex;
+      align-items: center;
+      margin: 0 1rem; }
+      .navbar li h4, .navbar li a {
+        font-size: 1em;
+        color: #ffffee;
+        text-decoration: none;
+        padding: 2rem; }
